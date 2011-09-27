@@ -114,7 +114,7 @@ For more information, <a href="http://wiki.openstreetmap.org/wiki/Planet.osm">se
     <td>
         <p>
         The complete planet is very large, so you may prefer to use one of
-        <a href="http://wiki.openstreetmap.org/wiki/Planet.osm#Mirrors">several periodic extracts</a>
+        <a href="http://wiki.openstreetmap.org/wiki/Planet.osm#Downloading">several periodic extracts</a>
         (individual countries or states) from third parties. <a href="http://download.geofabrik.de/osm/">GeoFabrik.de</a>
         and <a href="http://downloads.cloudmade.com/">Cloudmade.com</a> are two providers
         of extracts with up-to-date worldwide coverage.
