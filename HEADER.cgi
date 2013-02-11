@@ -23,9 +23,9 @@ def nice_size(file):
         size, suffix = size/TB, 'TB'
     
     if size < 10:
-        return '%.1f %s' % (size, suffix)
+        return '%.1f %s' % (round(size, 1), suffix)
     else:
-        return '%d %s' % (size, suffix)
+        return '%d %s' % (round(size), suffix)
 
 def nice_time(time):
     if time < 15:
