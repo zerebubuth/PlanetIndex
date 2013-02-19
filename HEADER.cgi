@@ -115,7 +115,7 @@ database, and those published before the 12 September 2012 are distributed under
         The complete planet is very large, so you may prefer to use one of
         <a href="http://wiki.openstreetmap.org/wiki/Planet.osm#Downloading">several periodic extracts</a>
         (individual countries or states) from third parties. <a href="http://download.geofabrik.de/openstreetmap/">GeoFabrik.de</a>
-        and <a href="http://metro.teczno.com/">Michal Migurski</a> are two providers
+        and <a href="http://download.bbbike.org/osm/">BBBike.org</a> are two providers
         of extracts with up-to-date worldwide coverage.
         </p>
     </td>
