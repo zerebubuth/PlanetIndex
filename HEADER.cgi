@@ -23,7 +23,7 @@ def nice_size(file):
         size, suffix = size/TB, 'TB'
     
     if size < 10:
-        return '%.1f %s' % (round(size, 1), suffix)
+        return '%.1f %s' % (round(size,1), suffix)
     else:
         return '%d %s' % (round(size), suffix)
 
@@ -50,8 +50,8 @@ def file_info(file, name):
 
     return '<b><a href="%(file)s">%(name)s</a></b><br><b>%(size)s</b>, created %(date)s ago.<br><small>md5: %(hash)s</small>.' % locals()
 
-planet_link = file_info('planet-latest.osm.bz2', 'Latest Weekly Planet File')
-changesets_link = file_info('changesets-latest.osm.bz2', 'Latest Weekly Changesets')
+planet_link = file_info('planet/planet-latest.osm.bz2', 'Latest Weekly Planet File')
+changesets_link = file_info('planet/changesets-latest.osm.bz2', 'Latest Weekly Changesets')
 
 print """
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
@@ -66,8 +66,7 @@ print """
 
 <p>
 The files found here are regularly-updated, complete copies of the OpenStreetMap.org
-database, and are distributed under a Creative Commons Attribution-ShareAlike 2.0 license.
-For more information, <a href="http://wiki.openstreetmap.org/wiki/Planet.osm">see the project wiki</a>.
+database, and those published before the 12 September 2012 are distributed under a Creative Commons Attribution-ShareAlike 2.0 license, those published after are  Open Data Commons Open Database License 1.0 licensed. For more information, <a href="http://wiki.openstreetmap.org/wiki/Planet.osm">see the project wiki</a>.
 </p>
 
 <table id="about">
@@ -115,8 +114,8 @@ For more information, <a href="http://wiki.openstreetmap.org/wiki/Planet.osm">se
         <p>
         The complete planet is very large, so you may prefer to use one of
         <a href="http://wiki.openstreetmap.org/wiki/Planet.osm#Downloading">several periodic extracts</a>
-        (individual countries or states) from third parties. <a href="http://download.geofabrik.de/osm/">GeoFabrik.de</a>
-        and <a href="http://downloads.cloudmade.com/">Cloudmade.com</a> are two providers
+        (individual countries or states) from third parties. <a href="http://download.geofabrik.de/openstreetmap/">GeoFabrik.de</a>
+        and <a href="http://metro.teczno.com/">Michal Migurski</a> are two providers
         of extracts with up-to-date worldwide coverage.
         </p>
     </td>
